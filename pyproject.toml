@@ -1,0 +1,15 @@
+[project]
+name = "desktop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-adk>=2.1.0",
+    "google-cloud-aiplatform>=1.152.0",
+    "google-genai>=1.75.0",
+    "numpy>=2.4.6",
+    "pyopenssl>=26.2.0",
+    "requests>=2.34.1",
+    "types-requests>=2.33.0.20260513",
+]
